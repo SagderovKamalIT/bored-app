@@ -1,0 +1,99 @@
+body {
+    font-family: "Inter", serif;
+    background: linear-gradient(to bottom, #ff781e, #f9d72d);
+ 
+}
+
+
+.container {
+    max-width: 960px;
+    height: 100%;
+    min-height: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.app {
+  min-height: 100vh; 
+  padding-top: 10em; 
+  box-sizing: border-box; 
+} 
+
+.app__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.app__header {
+font-weight: 700;
+font-size: 40px;
+margin-bottom: 66px;
+line-height: 48px;
+color: #FFFFFF;
+}
+
+.app__header-span,
+.js-app__header-span {
+    padding: 0 15px 10px 15px;
+    background: #6c19b1;
+}
+
+
+
+.app__paragraph {
+font-weight: 400;
+font-size: 40px;
+margin-bottom: 94px;
+line-height: 48px;
+color: #FFFFFF;
+}
+
+.app__button {
+padding: 11px 135px;
+font-weight: 400;
+font-size: 32px;
+border: none;
+line-height: 39px;
+cursor: pointer;
+color: #FFFFFF;
+background-color: #6c19b1;
+}
+
+.app__button:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 640px) {
+   .app__button {
+    cursor: auto;
+   
+   }
+   
+   .app__button:hover {
+    opacity: 1;
+}
+
+.app__header {
+    font-size: 30px;
+    margin-bottom: 55px;
+}
+
+.app__paragraph {
+    font-size: 30px;
+    margin-bottom: 81px;
+}
+
+.app__button {
+    font-size: 25px;
+    padding: 9px 135px;
+}
+
+.app__header-span, .js-app__header-span {
+    padding: 5px 9px 5px 9px;
+
+}
+
+}
